@@ -1,0 +1,9 @@
+{
+  "extends": "./playground/.nuxt/tsconfig.json",
+  "include": [
+    // missing in the playground
+    "./src",
+    "./playground",
+    "./templates"
+  ]
+}
